@@ -14,6 +14,12 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, world!")
+                .font(.largeTitle)
+            Text("Code Rocks 2025!")
+            Image(systemName: "waveform.path.ecg.text")
+                .resizable()
+                .frame(maxWidth: 200)
+                .scaledToFit()
         }
         .padding()
     }
